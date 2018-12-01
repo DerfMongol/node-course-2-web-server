@@ -40,13 +40,13 @@ app.get('/', (req, res) => {
     // res.send('<h1>Hello Express!</h1>')
     res.render('home.hbs', {
         pageTitle: 'Home Page',
-        welcomeMessage: 'Hi you little fucker', 
+        welcomeMessage: 'Hi Buddy!', 
     })
 })
 
 app.get('/about', (req, res) => {
     res.render('about.hbs', {
-        pageTitle: 'I kinda like black people',
+        pageTitle: 'About Me',
     })
 })
 
